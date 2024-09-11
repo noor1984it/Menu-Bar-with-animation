@@ -1,0 +1,138 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="noor.css"/>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <title>NavBar</title>
+  </head>
+  <body>
+    <!--For Big Screens-->
+    <header>
+      <h1><span>L</span>ogo</h1>
+      <ul class="nav">
+        <li class="main_list"><a href="#" class="main_link">Home</a></li>
+        <li class="main_list"><a href="#" class="main_link">Features</a>
+          <ul class="sub_menu">
+            <li class="main_list1"><a href="#" class="main_link1">Departments</a>
+            </li>
+            <li class="main_list1"><a href="#" class="main_link1">Projects 
+              <i class="arrow fa-solid fa-caret-right"></i></a>
+              <ul class="sub_sub_menu">
+                <li class="main_list2"><a href="#" class="main_link2">Project1</a></li>
+                <li class="main_list2"><a href="#" class="main_link2">Project2</a></li>
+                <li class="main_list2"><a href="#" class="main_link2">Project3</a></li>
+              </ul>
+            </li>
+            <li class="main_list1"><a href="#" class="main_link1">Languages
+                 <i class="arrow fa-solid fa-caret-right"></i></a>
+              <ul class="sub_sub_menu">
+                <li class="main_list2"><a href="#" class="main_link2">English</a></li>
+                <li class="main_list2"><a href="#" class="main_link2">French</a></li>
+                <li class="main_list2"><a href="#" class="main_link2">Germani</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="main_list"><a href="#" class="main_link">Services</a>
+          <ul class="sub_menu">
+            <li class="main_list1"><a href="#" class="main_link1">Health</a></li>
+            <li class="main_list1"><a href="#" class="main_link1">Education</a></li>
+            <li class="main_list1"><a href="#" class="main_link1">Taxi</a></li>
+          </ul>
+        </li>
+        <li class="main_list"><a href="#" class="main_link">Portofilio</a>
+          <ul class="sub_menu_proto">
+            <li class="main_list1"><a href="#" class="main_link1">Comming Soon &#128293;</a>
+            </li>
+          </ul>
+        </li>
+        <li class="main_list"><a href="#" class="main_link">Contact</a></li>
+      </ul>
+      <!--For Small Screens-->
+      <div>
+        <label for="burger" class="burger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </label>
+        <input type="checkbox" id="burger" />
+        <ul class="nav2">
+        <div>
+          <label class="main_label">Home</label>
+        </div>
+        <div>
+          <label for="features" class="main_label">Features<i class="plus fa-solid fa-plus"></i></label>
+          <input type="checkbox" id="features"/>
+          <ul class="sub_div">
+            <div>
+              <label class="sub_label">Departments</label>
+            </div>
+            <div>
+              <label for="projects" class="sub_label">Projects<i class="mini_plus fa-solid fa-plus"></i></label>
+              <input type="checkbox" id="projects"/>
+              <ul class="sub_sub_div">
+                <div>
+                  <label class="sub_sub_label">Project1</label>
+                </div>
+                <div>
+                  <label class="sub_sub_label">Project2</label>
+                </div>
+                <div>
+                  <label class="sub_sub_label">Project3</label>
+                </div>
+              </ul>
+              </div>
+            <div>
+              <label for="languages" class="sub_label">Languages<i class="mini_plus fa-solid fa-plus"></i></label>
+              <input type="checkbox" id="languages"/>
+              <ul class="sub_sub_div">
+                <div>
+                  <label class="sub_sub_label">English</label>
+                </div>
+                <div>
+                  <label class="sub_sub_label">French</label>
+                </div>
+                <div>
+                  <label class="sub_sub_label">Germani</label>
+                </div>
+              </ul>
+          </div>
+          </ul>
+        </div>
+          <div>
+            <label for="services" class="main_label">Services<i class="plus fa-solid fa-plus"></i></label>
+            <input type="checkbox" id="services"/>
+            <ul class="sub_div">
+              <div>
+                <label class="sub_label">Health</label>
+              </div>
+              <div>
+                <label class="sub_label">Education</label>
+              </div>
+              <div>
+                <label class="sub_label">Taxi</label>
+              </div>
+              </ul>
+          </div>
+          <div>
+            <label for="portfolio" class="main_label">Portofilio<i class="plus fa-solid fa-plus"></i></label>
+            <input type="checkbox" id="portfolio"/>
+            <ul class="sub_div">
+              <div>
+                <label class="sub_label">Comming Soon &#128293;</label>
+              </div>
+            </ul>
+          </div>
+          <div>
+            <label class="main_label">Contact</label>  
+          </div>
+      </ul>
+      </div>
+    </header>
+    <!--Footer-->
+    <footer>&copy;Copyright /Dev.Noor AlZubaidi<span class="heart">&#129505;</span></footer>
+  </body>
+</html>
